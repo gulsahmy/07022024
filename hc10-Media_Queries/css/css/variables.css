@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+
+:root{
+
+    --white: #ececec;
+    --orange: #e8a935;
+    --orange-dark: #f7a100;
+    --blue: rgb(14, 147, 183);
+    --blue-dark:rgb(5, 20, 227);
+    --yesil: #3fe408;
+    --yesil-koyu: #0e4216;
+
+        /* fontlar */
+
+        --ff-workbench:'Workbench', sans-serif;;
+
+        /* font_sizes */
+
+        --fs-lg:1.4rem;
+        --fs-xl:2em;
+        --fs-xxl:3em;
+
+}
+
+body{
+    background-color: var(--white);
+    
+    /* font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0; */
+}
+
+
+h1{
+    background-color: var(--blue);
+}
+
+p{
+    background-color: var(--blue-dark);
+    color: var(--orange-dark);
+    font-family: var(--ff-workbench);
+}
+
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+
+}
+
+.light{
+    width: 150px;
+    height: 150px;
+    background-color: var(--yesil);
+
+}
+
+.dark{
+    width: 150px;
+    height: 150px;
+    background-color: var(--yesil-koyu);
+
+}
