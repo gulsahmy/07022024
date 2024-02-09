@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
+@import './themes.css';
 
 :root{
 
@@ -58,6 +59,8 @@ p{
     width: 150px;
     height: 150px;
     background-color: var(--yesil);
+    background-color: var(--grey-5);
+    font-family: var(--ff-sevillana);
 
 }
 
@@ -65,5 +68,22 @@ p{
     width: 150px;
     height: 150px;
     background-color: var(--yesil-koyu);
+    font-family: var(--ff-yeon);
 
+}
+
+@media (max-width:900px){
+    body{
+        background-color: yellow;
+    }
+}
+@media (max-width:600px){
+    body{
+        background-color: purple;
+    }
+}
+@media (max-width:300px){
+    body{
+        background-color: aqua;
+    }
 }
